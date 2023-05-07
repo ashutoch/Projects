@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px gray, inset 2px 2px 5px lightgray;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    width: 50px;
+    font-size: 20px;
+    border: 10px;
+    border-radius: 20px;
+    background-color: coral;
+    color: #ffffff;
+    box-shadow: 5px 5px 2px lightslategray, inset 4px 4px 5px rgb(255, 195, 173);
+}
+
+button:hover {
+    background-color: lightgreen;
+    box-shadow: 2px 2px 1px rgb(146, 164, 182), inset 4px 4px 5px rgb(100, 218, 100);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.checked label {
+    text-decoration: line-through;
+    opacity: 0.5;
+    background-color: lightgrey;
+}
