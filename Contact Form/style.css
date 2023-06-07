@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --pcolor: #61eda6;
+}
+
+body{
+    background-color: #25262a;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;    
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0px 50px;
+    padding: 0px 100px;
+}
+
+#box-1 h1{
+    font-size: 55px;
+    color: var(--pcolor);
+}
+
+#box-1 p{
+    font-size: 15px;
+}
+
+#box-2 .in{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px;
+}
+
+label{
+    color: var(--pcolor);
+    font-size: 14px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='email'],
+textarea{
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 12px;
+    color: white;
+    background-color: #25262a;
+    border: none;
+    border-bottom: 1px solid var(--pcolor);
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+input[type='submit']{
+    background-color: var(--pcolor);
+    color: white;
+    padding: 7px 0px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+input[type='submit']:hover{
+    background-color: #3ac982;
+    cursor: pointer;
+}
